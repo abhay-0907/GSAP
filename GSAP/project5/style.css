@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+.part1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1a1a1a;
+
+}
+
+nav h1{
+    font-size: 2rem;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+ul li{
+    list-style: none;
+}
+
+.part2 li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+
+
+}
+
+nav button
+{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 22px ;
+    border-radius: 0.6rem;
+    background-color: transparent;
+    border: 2px solid black
+
+}
+
+.logo h1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px
+}   
+
+.logo h1 i{
+    display: inline-block;
+    font-size: 2.1rem;
+    color: black;
+    rotate: 45deg;
+}
+.section2 {
+    width: 100%;
+    height:80%;
+    display: flex;
+    padding: 2rem 4rem;
+}
+
+.section2-part1{
+    width: 44%;
+    height:100%;
+    padding: 1.1rem; 
+
+     
+}
+.section2-part1 h1{
+    font-size:3.7rem;
+    line-height: 1.1;
+    font-weight: 200;
+    padding: 0 2px;
+    text-align: left;
+    margin-bottom: 1.2rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.section2-part1 p{
+    font-size:1.2rem;
+    line-height: 1.2;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width: 85%;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.section2-part1 button{
+    padding: 15px 25px;
+    margin: 20px 0px ;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: monospace;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.section2-part2{
+    width: 56%;
+    height:100%;
+    position: relative;
+
+}
+
+.section2-part2 img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.section2-part3-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 4rem;
+    margin-bottom: 10px;
+
+}
+
+.section2-part3-bottom img{
+    height: 88px;
+}
+
+
+.services-section{
+    margin-top: 20px;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.services-section h3{
+   font-size: 1.2rem;
+   background: rgb(175, 255, 175);
+   padding: 0.1rem 0.2rem;
+   border-radius: 0.2rem;
+   margin:0px 10px;
+   white-space: nowrap;
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+}
+.services-section p{
+    width: 50%;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0px 10px;
+    text-align: left;
+}
+
+
+.container{
+    width: 100%;
+    height: 70%;
+    padding: 0.8rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  /* Two columns of equal width */
+    grid-template-rows: auto auto; 
+    gap: 2rem;
+
+}
+
+.elements{
+    margin: 10px;
+    height: 13rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.elements:nth-child(1){
+    box-shadow: 0 0.7rem 0 0 black;
+}
+.elements:nth-child(2){
+    background-color: #1a1a1a;
+}
+.elements:nth-child(3){
+    background-color: #1a1a1a;
+}
+.elements:nth-child(4){
+    box-shadow: 0 0.7rem 0 0 black;
+}
+.div1{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.div2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    object-fit: cover;
+}

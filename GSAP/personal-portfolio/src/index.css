@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)) {
+}
+
+@layer base{
+  html{
+    @apply transition-colors duration-300
+
+  }
+  body{
+    @apply bg-white dark:bg-white text-gray-900 dark:text-black
+  }
+}
+
+@font-face {
+  font-family: lato-regular;
+  src: url(./assets/fonts/Lato-Regular.ttf);
+
+}
+@font-face {
+  font-family: poppins-regular;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-regular;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: space-mono-regular;
+  src: url(./assets/fonts/SpaceMono-Regular.ttf);
+}

@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+} 
+
+html,body{
+   
+    width: 100%;
+    height: 100%;
+}
+
+body{
+     overflow-x: hidden;
+}
+
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 6, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;   
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(68, 68, 170);
+    padding: 3vw 0;
+    white-space: nowrap;
+    overflow: hidden;      /* Optional: hides overflow text */
+    text-overflow: ellipsis;  /* Optional: adds "..." if text overflows */
+
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 41, 119);
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;   
+}
+
+#page2  h1{
+
+    font-size: 18vw;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;;
+    color:white;
+    line-height: 1.2;
+    letter-spacing: 0.1rem
+    
+}
+
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 155, 155, 0.692);
+
+}
